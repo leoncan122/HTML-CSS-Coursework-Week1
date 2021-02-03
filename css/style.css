@@ -27,8 +27,9 @@
      position: absolute;
      z-index: -1;
      background-image: linear-gradient(to top, rgb(0, 0, 0) 22%, rgba(0, 50, 96, 0) 70%);
-     transform: scale(5.0);
+     transform: scale(5.6);
  }
+
 h2 {
     font-size: 2.5em;
 }
@@ -40,6 +41,7 @@ h2 {
      justify-content: space-between;
     
  }
+
  header h1 {
      font-size: 4em;
      text-align: center;
@@ -51,17 +53,25 @@ h2 {
  header h4 {
      margin: 15px 0 0 210px;
  }
+
  .navigation button {
      display: inline-block;
-     margin: 20px 15px 0 15px;
-     
+     margin: 40px 15px 0 15px;
+     background-color: rgba(0, 238, 0, 0.322);
+     border-radius: 3px;
+ }
+
+ button:hover, button:active {
+     background-color: goldenrod;
  }
 
  .main-content {
      width: 70%;
      padding: 15px;
      line-height: 1.5em;
+    
  }
+
  .main-content article:first-child {
      background-color: rgba(0, 238, 0, 0.322);
      padding: 10px;
@@ -79,3 +89,26 @@ h2 {
      margin-right: 15px;
      padding: 15px;
  }
+/* COlocar a la derecha*/
+ article p img {
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ a:hover, a:focus, a:active {
+     color: red;
+ }
+
+ /*footer*/
+ .footer {
+     background-color: rgba(0, 238, 0, 0.156);
+     display: flex;
+     justify-content: center;
+     height: 60px;
+     margin-top: 10px;
+     margin-bottom: 35px;
+ }
+
+.footer h3, ul {
+    text-align: center;
+}
