@@ -12,10 +12,12 @@
  body {
      color:goldenrod;
      font-size: 1.1em;
+     text-align: justify;
      margin: 10px 10px 10px 10px;
      background-image: url("https://i.pinimg.com/originals/a8/c3/49/a8c3495f20c6b67c97b55c919b14a784.jpg");
      background-repeat: no-repeat;
      background-size: cover;
+     
  }
  body::after {
      content: "";
@@ -41,7 +43,7 @@ h2 {
      justify-content: space-between;
     
  }
-
+ 
  header h1 {
      font-size: 4em;
      text-align: center;
@@ -55,11 +57,17 @@ h2 {
  }
 
  .navigation button {
+     font-size: 1.2em;
      display: inline-block;
      margin: 40px 15px 0 15px;
      background-color: rgba(0, 238, 0, 0.322);
      border-radius: 3px;
+     padding: 5px 5px;
+     font: fantasy;
+
+
  }
+
 
  button:hover, button:active {
      background-color: goldenrod;
@@ -88,11 +96,16 @@ h2 {
      float: right;
      margin-right: 15px;
      padding: 15px;
+     border: solid black 1.7px;
+ }
+ .topics {
+     border: green dashed 1.2px;
  }
 /* COlocar a la derecha*/
- article p img {
-     display: flex;
-     justify-content: flex-end;
+ article img  {
+     display: block;
+     margin: auto;
+     
  }
 
  a:hover, a:focus, a:active {
