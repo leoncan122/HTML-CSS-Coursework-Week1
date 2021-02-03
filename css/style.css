@@ -29,6 +29,10 @@
      background-image: linear-gradient(to top, rgb(0, 0, 0) 22%, rgba(0, 50, 96, 0) 70%);
      transform: scale(5.0);
  }
+h2 {
+    font-size: 2.5em;
+}
+
  header {
      color: black;
      font-weight: bolder;
@@ -62,4 +66,16 @@
      background-color: rgba(0, 238, 0, 0.322);
      padding: 10px;
      border-radius: 10px;
+ }
+
+ .right-border{
+     color: whitesmoke;
+     font-size: 1.3em;
+     text-align: center;
+     line-height: 2em;
+     text-decoration: underline;
+     position: relative;
+     float: right;
+     margin-right: 15px;
+     padding: 15px;
  }
